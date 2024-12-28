@@ -1,10 +1,9 @@
 // import React, { useState } from "react";
 
-import "./Login.css";
+import "./Register.css";
 
 import { useNavigate as navigate } from "react-router";
-
-const Login = () => {
+const Register = () => {
   return (
     <>
       <div className="Outer">
@@ -15,7 +14,10 @@ const Login = () => {
           src="logo512.png"
           alt="Hello World"
         />
+
         <form className="ily">
+          <label>Name</label>
+          <input type="text" name="email" required />
           <label>Email address</label>
           <input type="email" name="email" required />
           <label>Password</label>
@@ -27,4 +29,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
