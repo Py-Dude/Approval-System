@@ -2,8 +2,14 @@
 
 import "./Register.css";
 
-import { useNavigate as navigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 const Register = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/home");
+  };
   return (
     <>
       <div className="Outer">
