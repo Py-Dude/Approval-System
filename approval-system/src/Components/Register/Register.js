@@ -6,10 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Register = () => {
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    navigate("/home");
-  };
+
   return (
     <>
       <div className="Outer">
