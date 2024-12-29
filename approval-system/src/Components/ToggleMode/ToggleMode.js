@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import "./ToggleMode.css";
 import Login from "../Login/Login.js";
-<<<<<<< Updated upstream
-=======
 import Register from "../Register/Register.js";
 
 // Functional Component Starting
->>>>>>> Stashed changes
 const ToggleMode = () => {
   const [isNightMode, setIsNightMode] = useState(false);
   const [isLoginMode, setIsLoginMode] = useState(true);

@@ -1,13 +1,8 @@
 :root {
-  --background-color: radial-gradient(
-    circle,
-    pink 10%,
-    rgb(252, 212, 138) 50%,
-    lightblue 100%
-  );
+  --background-color: linear-gradient(#addcee, white);
   --text-color: black;
-  --button-bg: pink;
-  --button-text: black;
+  --button-bg: #0077ed;
+  --button-text: whitesmoke;
 }
 
 .night-mode {
