@@ -6,12 +6,7 @@ body {
     teal 100%
   ) !important;
 
-  background: radial-gradient(
-    circle,
-    pink 10%,
-    rgb(252, 212, 138) 50%,
-    lightblue 100%
-  ) !important;
+  background: linear-gradient(#addcee, white) !important;
 }
 
 code {
